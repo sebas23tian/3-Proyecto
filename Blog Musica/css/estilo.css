@@ -1,0 +1,62 @@
+body{
+  background-color: #9692d1;
+}
+section{
+  margin-left: 2rem;
+}
+.logo-img{
+  width: 8rem;
+  margin: 1.5rem;
+}
+.contenedor-logo{
+  background-color: #BDF3FF;
+  padding-right: 2rem;
+}
+.social{
+  width: 4rem;
+  margin-top: 6rem;
+  margin-left: 0;
+  float: right;
+}
+.blog{
+  padding: 1rem;
+}
+.img-1{
+  width: 50rem;
+}
+.nav-item{
+  color: red;
+  font-weight: bold;
+}
+.barra-buscar{
+  padding-right: 1rem;
+}
+.barra-lateral{
+  padding-right: 1rem;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .social{
+    width: 3rem;
+    margin-top: 7rem;
+  }
+  .contenedor-logo{
+    background-color: #BDF3FF;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .logo{
+    width: 3.5rem;
+    max-height: 2rem;
+  }
+  .social{
+    width: 2.8rem;
+    margin-top: -28px;
+  }
+  .contenedor-logo{
+    background-color: #BDF3FF;
+    padding-right: 0.1rem;
+  }
+}

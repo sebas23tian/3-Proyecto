@@ -1,0 +1,83 @@
+.logo{
+  width: 8rem;
+  padding-left: 1rem;
+}
+.slogan{
+  width: 100%;
+  color: #163809;
+  font-family: 'Fresca', sans-serif;
+  padding-top: 1rem;
+}
+.social{
+  width: 75px;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+#contenedor-slogan{
+  height: 5rem;
+  margin: 0px;
+}
+#bar{
+  max-height: 8rem;
+}
+.contendedor-logo{
+  margin: 0px;
+  padding: 0px;
+}
+.barra-navegacion{
+  height: 10rem;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+	flex-flow: row wrap;
+}
+.contenido{
+  background-image: url("../img/img1t.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+.imagen-blog{
+  margin-top: 2rem;
+}
+.contenido-2{
+  display: table;
+}
+.boton-enviar{
+  margin-left: 3rem;
+}
+.chip{
+  margin-top: 2rem;
+}
+.card{
+  border-radius: 8px;
+}
+.autor{
+  margin-top: 2rem;
+}
+.info-autor{
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .slogan{
+    width: 100%;
+    color: #163809;
+    font-family: 'Fresca', sans-serif;
+    padding-top: 0px;
+    padding-left: 3rem;
+  }
+  #contenedor-slogan{
+    height: 6rem;
+  }
+  .autor{
+    margin-left: 6rem;
+  }
+}
+@media (min-width: 601px) {
+  .info-autor{
+    display: table-cell;
+    vertical-align: top;
+    margin-top: -1046px;
+  }
+  ]
